@@ -1,0 +1,24 @@
+
+ .set_qunatity{
+	position: relative;
+}
+.set_qunatity::after{
+	content: "(note,1 piece)";
+	width: auto;
+	height: auto;
+	text-align: center;
+	position: absolute;
+	bottom: -20px;
+	right: 1rem;
+	font-size: 0.8rem;
+
+}
+.page-link input {
+	line-height: 16px;
+	width: 45px;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	color: blue;
+} 
+
